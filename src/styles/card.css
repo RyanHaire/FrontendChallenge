@@ -1,0 +1,60 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: coral;
+    width: 400px;
+    height: 470px;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 0;
+    text-align: left;
+    font-weight: bold;
+    margin-right: 20px;
+    color: white;
+}
+
+.mt-10 {
+    margin-top: -30px;
+}
+
+.card-img {
+    width: 400px;
+    /* border-top-left-radius: 8px;
+    border-top-right-radius: 8px; */
+    border-radius: 8px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-top: -33px;
+    padding-top: 0px;
+}
+
+.card-btn {
+    border-radius: 100%; 
+    background: none;
+    border: none;
+}
+
+.card-btn-icon {
+    color: grey;
+}
+
+.card-btn-icon:hover {
+    color: crimson;
+}
+
+.unliked {
+    color: grey;
+}
+
+.liked {
+    color: crimson;
+}
+.display-flex-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
